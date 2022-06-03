@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/db0399953b.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="1.css">
+    <title>Ekasha</title>
+</head>
+
+<body class="body">
+    <div class="main">
+        <div class="navigationbar">
+            <nav class="navbar bg-dark">
+                <h3 class="logo text-primary">EKASHA</h3>
+                <form class="form-inline">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary">Feb 13,2019 @ 08:23:35 <i class="fa fa-arrow-right"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary">Feb 13,2020 @ 08:23:35</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary"><i class=" fa fa-bell-o"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary"><i class="fa fa-font"></i> Admin Zeronsec</a>
+                        </li>
+                    </ul>
+                </form>
+            </nav>
+        </div>
+        <div class="sidebar">
+            <span><i class="far fa-chart-bar"></i></span>
+            <span><i class="fas fa-bug"></i></span>
+            <span><i class="fas fa-globe"></i></span>
+            <span><i class="fas fa-user-plus"></i></span>
+            <span><i class="fas fa-user-circle cir"></i></span>
+            <span><i class="fas fa-power-off" id="on"></i></span>
+            <span class="plush"><i class="fa fa-plus" id="plush"></i></span>
+        </div>
+        <div class="container-fluid">
+            <div class="twopart">
+                <div class="row">
+                    <div class="part1">
+                        <div class="pa1">
+                            <div class="headerm">
+                                <div class="row mt-2 hm">
+                                    <div class="col-sm-8">
+                                        <p class="ml-1">All incidents(Showing 6)</p>
+                                    </div>
+                                    <div class="col-sm-1">
+                                        <i class="fa fa-search"></i>
+                                    </div>
+                                    <div class="col-sm-1">
+                                        <i class="fa fa-filter"></i>
+                                    </div>
+                                    <div class="col-sm-1">
+                                        <i class="fa fa-plus-square pl"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="scroll">
+                                <div class="ca1 rounded m-1 mt-2">
+                                    <div class="c1-c1">
+                                        <div id="h1">
+                                            <i class="fa fa-minus pl-2 minus mt-3"></i>
+                                            <h6 class="h6 mt-1 ml-1">Malicious URL Requast<br>Attempt</h6>
+                                            <!-- <div class="circle"><p class="persent1">100%</p></div> -->
+                                            <div class="persent1"><span class="vc">100%</span></div>
+                                        </div>
+                                        <div class="setting">
+                                            <i class="fa fa-gear" id="phishing"></i>
+                                            <span>Default</span>
+                                        </div>
+
+                                        <div class="cfooter1 mt-3">
+                                            <div class="f1">
+                                                <div class="row mr1">
+                                                    <div class="col-sm-4 col-xs-4 border">
+                                                        <span class="b"><i class="fa fa-globe"></i> Mumbai</span>
+                                                    </div>
+                                                    <div class="col-sm-4 col-xs-4 border">
+                                                        <span class="b text-danger">Overdue <i
+                                                                class="fa fa-circle"></i></span>
+                                                    </div>
+                                                    <div class="col-sm-4 col-xs-4 border">
+                                                        <span class="b text-secondary elli"><i class="fa fa-comment-o"></i>
+                                                            Exploitation</span>
+                                                    </div>
+                                                </div>
+                                                <div class="row mr1">
+                                                    <div class="col-sm-5 border">
+                                                        <span class="b"><i class="fa">&#xf126;</i> 10.2.45.23</span>
+                                                    </div>
+                                                    <div class="col-sm-4 border">
+                                                        <span class="b text-secondary">02:50 pm</span>
+                                                    </div>
+                                                    <div class="col-sm-3 border">
+                                                        <span>
+                                                            <div class="col-sm-3">
+                                                                <p class="b elli text-secondary elli">17 jun,20</p>
+                                                            </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="ca2 rounded m-1 mt-2">
+                                    <div class="c1-c1">
+                                        <div id="h1">
+                                            <!-- <i class="fa fa-minus pl-1 minus mt-3"></i> -->
+                                            <i class="fa fa-angle-down pl-2 mt-3"></i>
+                                            <h6 class="h6 mt-1 ml-1">Multiplr Faild Login<br>Attempt on Critical System</h6>
+                                            <!-- <p class="persent2">100%</p> -->
+                                            <div class="persent2"><span class="vc">100%</span></div>
+                                        </div>
+                                        <div class="setting">
+                                            <i class="fa fa-gear" id="phishing"></i>
+                                            <span>Default</span>
+                                        </div>
+
+                                        <div class="cfooter mt-3">
+                                            <div class="row mr1">
+                                                <div class="col-sm-4 border">
+                                                    <span class="b"><i class="fa fa-globe"></i> Junagadh</span>
+                                                </div>
+                                                <div class="col-sm-4 border">
+                                                    <span class="b text-danger">Overdue <i
+                                                            class="fa fa-circle"></i></span>
+                                                </div>
+                                                <div class="col-sm-4 border">
+                                                    <div class="elli b text-secondary"><i class="fa fa-comment-o"></i>
+                                                        Command&Controll</div>
+                                                </div>
+                                            </div>
+                                            <div class="row mr1">
+                                                <div class="col-sm-5 border">
+                                                    <span class="">-</span>
+                                                </div>
+                                                <div class="col-sm-4 border">
+                                                    <span class="b text-secondary">02:50 pm</span>
+                                                </div>
+                                                <div class="col-sm-3 border">
+                                                    <span class="elli b text-secondary">17 jun,20</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="ca3 rounded m-1 mt-2">
+                                    <div class="c1-c1">
+                                        <div id="h1">
+                                            <!-- <i class="fa fa-minus pl-1 minus mt-3"></i> -->
+                                            <i class="fa fa-angle-up pl-2 mt-3"></i>
+                                            <h6 class="h6 mt-1 ml-1">Malicious URL Requast<br>Attempt</h6>
+                                            <!-- <p class="persent3">15%</p> -->
+                                            <div class="persent3"><span class="vc">100%</span></div>
+                                        </div>
+                                        <div class="setting">
+                                            <i class="fa fa-gear" id="phishing"></i>
+                                            <span>Default</span>
+                                        </div>
+
+                                        <div class="cfooter mt-3">
+                                            <div class="row mr1">
+                                                <div class="col-sm-4 border">
+                                                    <span class="b"><i class="fa fa-globe"></i> Dubai</span>
+                                                </div>
+                                                <div class="col-sm-4 border">
+                                                    <span class="b text-success">Assigned <i
+                                                            class="fa fa-circle"></i></span>
+                                                </div>
+                                                <div class="col-sm-4 border">
+                                                    <span class="b text-secondary"><i class="fa fa-comment-o"></i> Delivary</span>
+                                                </div>
+                                            </div>
+                                            <div class="row mr1">
+                                                <div class="col-md-5 col-sm-6 col-xs-4 border">
+                                                    <span>-</span>
+                                                </div>
+                                                <div class="col-md-4 col-sm-3 col-xs-4 border">
+                                                    <span class="b text-secondary">02:43 pm</span>
+                                                </div>
+                                                <div class="col-md-3 col-sm-3 col-xs-4 border">
+                                                    <span class="b text-secondary">17 jun,20</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="ca2 rounded m-1 mt-2">
+                                    <div class="c1-c1">
+                                        <div id="h1">
+                                            <i class="fa fa-minus pl-2 minus mt-3"></i>
+                                            <h6 class="h6 mt-1 ml-1">Malicious URL Requast<br>Attempt</h6>
+                                            <!-- <p class="persent4">100%</p> -->
+                                            <div class="persent4"><span class="vc">100%</span></div>
+                                        </div>
+                                        <div class="setting">
+                                            <i class="fa fa-gear" id="phishing"></i>
+                                            <span>Default</span>
+                                        </div>
+
+                                        <div class="cfooter mt-3">
+                                            <div class="row border mr1">
+                                                <div class="col-sm-4 border">
+                                                    <span class="b"><i class="fa fa-globe"></i> Junagadh</span>
+                                                </div>
+                                                <div class="col-sm-4 border">
+                                                    <span class="b text-danger">Overdue <i
+                                                            class="fa fa-circle"></i></span>
+                                                </div>
+                                                <div class="col-sm-4 border">
+                                                    <span class="b text-secondary"><i class="fa fa-comment-o"></i> Delivary</span>
+                                                </div>
+                                            </div>
+                                            <div class="row mr1">
+                                                <div class="col-sm-5 col-xs-4 border">
+                                                    <span>-</span>
+                                                </div>
+                                                <div class="col-sm-4 col-xs-4 border">
+                                                    <span class="b text-secondary">02:43 pm</span>
+                                                </div>
+                                                <div class="col-sm-3 col-xs-4 border">
+                                                    <span class="b text-secondary">17 jun,20</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col part2">
+                        <div class="p2 mt-2">
+                            <div class="box">
+                                <div class="row mr-2">
+                                    <div class="col-sm-6 col-xs-4">
+                                        <h5 class="heding mt-1 ml-1">Malicious URL Requast Attempt<span><i class="fa fa-pencil-square" id="edit" aria-hidden="true"></i></span></h5>
+                                        <p class="b text-secondary ml-1">Default |#8</p>
+                                    </div>
+
+                                    <div class="col-sm-1 col-xs-2 border-bottom border-left">
+                                        <p class="b text-secondary">severity <br><span
+                                                class="text-warning">Moderate</span></p>
+                                    </div>
+                                    <div class="col-sm-1 col-xs-2 border-bottom">
+                                        <p class="b text-secondary">Status <br><span class="text-success">Overdue</span>
+                                        </p>
+                                    </div>
+                                    <div class="col-sm-2 col-xs-2 border-bottom border-left">
+                                        <p class="b heding"><span class="text-secondary">Create On</span> <br><span
+                                                >2020-01-17 14:50:13</span></p>
+                                    </div>
+                                    <div class="col-sm-2 col-xs-2 border-bottom border-left">
+                                        <p class="b heding"><span class="text-secondary">Due on</span> <br><span
+                                                class="elli">2020-01-17 14:50:13</span></p>
+                                    </div>
+                                </div>
+                                <div class="row mr-2">
+                                    <div class="col-md-6 col-sm-3">
+                                        <span class="b text-secondary ml-1"><i>NULL</i></span>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 border-left">
+                                        <p class="underline mt-1"><span class="b"><i class="fa fa-globe" style="font-size: 12px;"></i>Mumbai</span><span class="b dayago">23
+                                                days ago</span></p>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 border-left">
+                                        <p><span class="b text-secondary">Asignto</span><br><span class="b">Admin
+                                                Zeronsec</span></p>
+                                    </div>
+                                    <div class="col-md-1 col-sm-3 border-left">
+                                        <p class="b"><span class="text-secondary elli">Created
+                                                by</span><br><span>-</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tebs">
+                                <div class="header">
+                                    <ul class="nav rounded-top" style="background-color: black;">
+                                        <li class="nav-item b">
+                                            <a class="nav-link nl">Timeline</a>
+                                        </li>
+                                        <li class="nav-item b over">
+                                            <a class="nav-link nl">Overview</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link nl b">Action</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link nl b">Workbook</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link nl b">PlayBook</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link nl b">Assets</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link nl b">Evidance</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link nl b">Files</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link nl b">Notes</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link nl b">Warroom</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link nl b">Activity</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="tab-content">
+                                    <div class="par1">
+                                        <table class="tec">
+                                            <tr>
+                                                <th class="text-primary">Details</th>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-primary">Basic</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-secondary">Type</td>
+                                                <td>Default</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-secondary">Cyber Kill chain stage</td>
+                                                <td>Delivary</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-secondary">Security</td>
+                                                <td class="text-warning">Moderate</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-secondary">Owner</td>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-secondary">Status</td>
+                                                <td>Overdue</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-secondary">Assign to</td>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-secondary">Source</td>
+                                                <td>Ekasha</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-secondary">Deshtination</td>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-secondary">Number of Occurrence</td>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr class="border-bottom">
+                                                <td class="text-secondary">Last Occurrence Time</td>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-secondary">Relevance severity</td>
+                                                <td>Insignificant</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-secondary">Posible Bussiness Impact</td>
+                                                <td>LowPriorityImpact</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="par2">
+                                        <div class="row">
+                                            <div class="col">
+                                                <i class="fa fa-pencil float-right"></i>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="text-primary">Incidantdata</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="text-secondary">SourceCountry</p>
+                                            </div>
+                                            <div class="col">
+                                                <p>India</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="text-secondary">Source Adddress</p>
+                                            </div>
+                                            <div class="col">
+                                                <p>10.2.45.23</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="text-secondary">Requast URL</p>
+                                            </div>
+                                            <div class="col">
+                                                <p class="elli">https://69.9.204.114/pany4.zip</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="text-secondary">Sourceuser</p>
+                                            </div>
+                                            <div class="col">
+                                                <p>Nitin Mahade</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="text-secondary">DestinationNTdomain</p>
+                                            </div>
+                                            <div class="col">
+                                                <p>Towoverker.com</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="text-secondary">SourceNTDomain</p>
+                                            </div>
+                                            <div class="col">
+                                                <p class="heding">Educk.lgnorelist.com</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="text-secondary">Incidanteld</p>
+                                            </div>
+                                            <div class="col">
+                                                <p>8</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="text-secondary">SourceCity</p>
+                                            </div>
+                                            <div class="col">
+                                                <p>Mumbai</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="par3">
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="ml-1 text-primary b">raw</p>
+                                                <p class="text-secondary plane"><i class="fa fa-paper-plane" aria-hidden="true"></i></p> 
+                                                <p class="text-secondary" id="see">Nothing to See here !</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <span style="color: white;" class="ml-5 footer"><i class="fa fa-gear"></i> Administrativ</span>
+    </div>
+</body>
+</html>
